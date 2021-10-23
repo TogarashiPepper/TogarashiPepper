@@ -7,7 +7,6 @@
 [![node.js]](https://nodejs.org/)
 [![javascript]](https://en.wikipedia.org/wiki/JavaScript)
 [![typescript]](https://www.typescriptlang.org/)
-[![ruby]](https://www.ruby-lang.org/en/)
 [![rust]](https://www.rust-lang.org/)
 
 Currently learning [Rust](https://www.rust-lang.org/)!
