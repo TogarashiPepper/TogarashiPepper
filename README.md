@@ -3,8 +3,6 @@
 [![typescript]](https://www.typescriptlang.org/)
 [![rust]](https://www.rust-lang.org/)
 
-Currently learning [Rust](https://www.rust-lang.org)
-
 ![My GitHub stats](https://github-readme-stats.vercel.app/api?username=TogarashiPepper&theme=prussian&show_icons=true&hide_border=true)
 ![My top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TogarashiPepper&layout=compact&langs_count=6&hide_border=true&theme=prussian)
 
