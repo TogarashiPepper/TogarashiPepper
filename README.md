@@ -1,1 +1,3 @@
-Everything I make has at least partially worked at some point in time, and that's gotta count for something.
+> I have not failed. I've just found 2<sup>64</sup> ways that won't work.
+
+\- Me, just now
