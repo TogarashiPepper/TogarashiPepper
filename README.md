@@ -1,3 +1,1 @@
-> I have not failed. I've just found 2<sup>64</sup> ways that won't work.
-
-\- Me
+Working on a programming language called `Koan`. Try it out [here](https://togarashipepper.github.io/koan-web-repl/)! Docs for it are available in this [README.md](https://github.com/TogarashiPepper/koan/blob/main/README.md)
