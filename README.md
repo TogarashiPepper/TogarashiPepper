@@ -1,1 +1,1 @@
-Working on a programming language called `Koan`. Try it out [here](https://togarashipepper.github.io/koan-web-repl/)! Docs for it are available in this [README.md](https://github.com/TogarashiPepper/koan/blob/main/README.md)
+> We do these things not because they are easy, but because we thought they were going to be easy.
