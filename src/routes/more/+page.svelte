@@ -8,7 +8,7 @@
 		{#await data.lazy.albumData}
 			Loading Favorite Album...
 		{:then album}
-			My favorite album this month is
+			My favorite album this week is
 			<span class="italic font-light">{album.name}</span>
 			by
 			<span class="italic font-light">{album.artist}</span>

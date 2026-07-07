@@ -8,7 +8,7 @@ export const load: PageServerLoad = async ({ platform, setHeaders }) => {
 	});
 
 	let token = platform?.env?.LASTFM_TOKEN;
-	const albumPromise = fetch(`http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=togarashipep&api_key=${token}&limit=1&period=1month&format=json`)
+	const albumPromise = fetch(`http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=togarashipep&api_key=${token}&limit=1&period=7day&format=json`)
 		.then(r => r.json())
 		.then(res => {
 			const album = res?.topalbums?.album?.[0];
