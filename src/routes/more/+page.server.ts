@@ -1,7 +1,7 @@
-import { env } from "$env/dynamic/private";
+import { LASTFM_TOKEN } from "$env/static/private";
 
 export async function load() {
-	const albumPromise = fetch(`http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=togarashipep&api_key=${env.LASTFM_TOKEN}&limit=1&period=1month&format=json`)
+	const albumPromise = fetch(`http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=togarashipep&api_key=${LASTFM_TOKEN}&limit=1&period=1month&format=json`)
 		.then(r => r.json())
 		.then(res => {
 			const album = res?.topalbums?.album?.[0];
