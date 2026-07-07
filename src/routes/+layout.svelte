@@ -1,6 +1,6 @@
 <script lang="ts">
 	import "./layout.css";
-	import favicon from "$lib/assets/favicon.svg";
+	import favicon from "$lib/assets/favicon.png";
 
 	let { children } = $props();
 	let sections = [
@@ -34,7 +34,7 @@
 </div>
 
 <div class="m-8 mt-1">
-{@render children()}
+	{@render children()}
 </div>
 
 <style>
