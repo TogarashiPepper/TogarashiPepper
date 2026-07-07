@@ -14,7 +14,7 @@
 			content: "Ultimengine",
 		},
 		{
-			link: `${rad_rosa_prefix}/rad%3AzyXkMerfX6MwHbbTE6PWYVBwRK9j`,
+			link: `${rad_rosa_prefix}/rad%3Az3wj3YmZmrYJkLY9GwgdpiMD7YUQ`,
 			content: "Koan",
 		},
 	];
