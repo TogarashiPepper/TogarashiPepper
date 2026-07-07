@@ -1,7 +1,10 @@
-import { LASTFM_TOKEN } from "$env/static/private";
+import type { PageServerLoad } from './$types';
 
-export async function load() {
-	const albumPromise = fetch(`http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=togarashipep&api_key=${LASTFM_TOKEN}&limit=1&period=1month&format=json`)
+export const prerender = false;
+
+export const load: PageServerLoad = async ({ platform }) => {
+	let token = platform?.env?.LASTFM_TOKEN;
+	const albumPromise = fetch(`http://ws.audioscrobbler.com/2.0/?method=user.gettopalbums&user=togarashipep&api_key=${token}&limit=1&period=1month&format=json`)
 		.then(r => r.json())
 		.then(res => {
 			const album = res?.topalbums?.album?.[0];
