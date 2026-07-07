@@ -25,9 +25,9 @@
 	/>
 </svelte:head>
 
-<div class="ml-8 mt-3 flex">
+<div class="ml-8 mt-3 flex gap-1">
 	{#each sections as section}
-		<a class="m-1 mb-0 italic font-light text-sm" href={section.route}
+		<a class="mb-0 italic font-light text-sm" href={section.route}
 			>{section.name}</a
 		>
 	{/each}
