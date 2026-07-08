@@ -24,7 +24,7 @@
 	<p class="font-bold">TogarashiPepper</p>
 	<p class="ml-1 text-[15px] text-gray-500">he/any</p>
 </div>
-<p class="w-[30vw] text-pretty font-normal">
+<p class="max-w-sm text-pretty font-normal">
 	Sometimes I make things; sometimes they work. Student and programmer currently
 	working on a computer algebra system.
 </p>
