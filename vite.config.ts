@@ -4,21 +4,19 @@ import { defineConfig } from "vite";
 import adapter from "@sveltejs/adapter-cloudflare";
 
 export default defineConfig({
-	plugins: [
-		tailwindcss(),
-		sveltekit({
-			compilerOptions: {
-				// Force runes mode for the project, except for libraries.
-				runes: ({ filename }) =>
-					filename.split(/[/\\]/).includes("node_modules") ? undefined : true,
-			},
-			adapter: adapter(
-				{
-					platformProxy: {
-						persist: false
-					}
-				}
-			),
-		}),
-	],
+  plugins: [
+    tailwindcss(),
+    sveltekit({
+      compilerOptions: {
+        // Force runes mode for the project, except for libraries.
+        runes: ({ filename }) =>
+          filename.split(/[/\\]/).includes("node_modules") ? undefined : true,
+      },
+      adapter: adapter({
+        platformProxy: {
+          persist: false,
+        },
+      }),
+    }),
+  ],
 });
